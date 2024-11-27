@@ -10,7 +10,7 @@ class TakhtiWidget extends StatelessWidget {
     return Stack(
       alignment: Alignment.center, // Center the text on the image
       children: [
-        Container(
+        SizedBox(
           height: 80,
           width: double.infinity, // Use full width of the parent
           child: Image.asset(

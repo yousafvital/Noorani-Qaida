@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AnimatedHeading extends StatefulWidget {
+  const AnimatedHeading({super.key});
+
   @override
   _AnimatedHeadingState createState() => _AnimatedHeadingState();
 }
@@ -12,7 +14,7 @@ class _AnimatedHeadingState extends State<AnimatedHeading> {
   void initState() {
     super.initState();
     // Delay to start the animation
-    Future.delayed(Duration(milliseconds: 100), () {
+    Future.delayed(const Duration(milliseconds: 100), () {
       setState(() {
         _opacity = 1.0; // Change opacity to fully visible
       });
@@ -24,8 +26,8 @@ class _AnimatedHeadingState extends State<AnimatedHeading> {
     return Center(
       child: AnimatedOpacity(
         opacity: _opacity,
-        duration: Duration(seconds: 2), // Animation duration
-        child: Text(
+        duration: const Duration(seconds: 2), // Animation duration
+        child: const Text(
           'Transforming Business with Mobile Development Excellence',
           style: TextStyle(
             fontWeight: FontWeight.bold,

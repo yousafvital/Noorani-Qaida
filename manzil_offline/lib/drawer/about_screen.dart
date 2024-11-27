@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:manzil_offline/custom_widgets/app_drawer.dart';
 import 'package:manzil_offline/custom_widgets/appbar_widget.dart';
-import 'package:manzil_offline/custom_widgets/takhti_widget.dart';
+import 'package:manzil_offline/custom_widgets/takhti_image.dart';
 
 class AboutScreen extends StatefulWidget {
   const AboutScreen({super.key});
@@ -11,42 +11,33 @@ class AboutScreen extends StatefulWidget {
 }
 
 class _AboutScreenState extends State<AboutScreen> {
-  // Track the visibility of each section
-  List<bool> _isVisible = [false, false, false, false, false];
+  final List<bool> _isVisible = [false, false, false, false, false];
 
   @override
   void initState() {
     super.initState();
-    _animateText();
-  }
-
-  // Delay animation for each text section
-  void _animateText() async {
-    await Future.delayed(Duration(seconds: 1), () {
+    // Start the fade-in animations after a delay
+    Future.delayed(const Duration(seconds: 1), () {
       setState(() {
         _isVisible[0] = true;
       });
     });
-
-    await Future.delayed(Duration(seconds: 1), () {
+    Future.delayed(const Duration(seconds: 2), () {
       setState(() {
         _isVisible[1] = true;
       });
     });
-
-    await Future.delayed(Duration(seconds: 1), () {
+    Future.delayed(const Duration(seconds: 3), () {
       setState(() {
         _isVisible[2] = true;
       });
     });
-
-    await Future.delayed(Duration(seconds: 1), () {
+    Future.delayed(const Duration(seconds: 4), () {
       setState(() {
         _isVisible[3] = true;
       });
     });
-
-    await Future.delayed(Duration(seconds: 1), () {
+    Future.delayed(const Duration(seconds: 5), () {
       setState(() {
         _isVisible[4] = true;
       });
@@ -56,88 +47,103 @@ class _AboutScreenState extends State<AboutScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppbarWidget(title: 'نورانی قاعدہ'),
-      endDrawer: AppDrawer(),
+      appBar: const AppbarWidget(title: 'نورانی قاعدہ'),
+      endDrawer: const AppDrawer(),
       body: Stack(
         children: [
-          // Background image covering the entire screen
-          Container(
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage('assets/images/book.jpg'), // Change this to your image path
+          // Background image with opacity
+          Positioned.fill(
+            child: Opacity(
+              opacity: 0.3, // Adjust opacity as needed
+              child: Image.asset(
+                'assets/images/custom_quran.png', // Replace with your image path
                 fit: BoxFit.cover,
               ),
             ),
           ),
-          // Semi-transparent overlay
-          Container(
-            color: Colors.black.withOpacity(0.5), // Adjust opacity as needed
-          ),
-          // Main content
+          // Content of the About Screen
           Column(
             children: [
-              // This text will not scroll
-              const TakhtiWidget(text: 'About'),
-
-              // Expanded widget to allow scrolling for the content
+              const TakhtiImage(text: 'About'),
               Expanded(
                 child: SingleChildScrollView(
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10), // Single padding for all text widgets
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 15,
+                        vertical: 10), // Single padding for all text widgets
                     child: Column(
                       children: [
                         // First text with fade-in animation
                         AnimatedOpacity(
                           opacity: _isVisible[0] ? 1.0 : 0.0,
                           duration: const Duration(seconds: 1),
-                          child: Text(
+                          child: const Text(
                             'Transforming Business with Mobile Development Excellence',
-                            style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.red),
+                            style: TextStyle(
+                                fontSize: 22,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.teal,
+                                fontFamily: 'Noori'),
                           ),
                         ),
+                        const SizedBox(height: 5),
                         // Second text with fade-in animation
                         AnimatedOpacity(
                           opacity: _isVisible[1] ? 1.0 : 0.0,
                           duration: const Duration(seconds: 1),
-                          child: Text(
+                          child: const Text(
                             'At Vital Steer, our team of seasoned mobile developers is dedicated to enhancing your mobile presence with powerful Android and iOS applications. We focus on creating seamless, intuitive, and high-performance apps that meet your business objectives and captivate users. With a commitment to innovative design, optimized performance, and end-to-end support, we deliver solutions that drive engagement, growth, and lasting value.',
-                            style: TextStyle(fontSize: 18, color: Colors.white),
+                            style: TextStyle(
+                                fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                         ),
+                        const SizedBox(height: 10),
                         // Third text with fade-in animation
                         AnimatedOpacity(
                           opacity: _isVisible[2] ? 1.0 : 0.0,
                           duration: const Duration(seconds: 1),
-                          child: Text(
+                          child: const Text(
                             'Our Mission',
-                            style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.red),
+                            style: TextStyle(
+                                fontSize: 22,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.teal,
+                                fontFamily: 'Noori'),
                           ),
                         ),
+                        const SizedBox(height: 5),
                         // Fourth text with fade-in animation
                         AnimatedOpacity(
                           opacity: _isVisible[3] ? 1.0 : 0.0,
                           duration: const Duration(seconds: 1),
-                          child: Text(
+                          child: const Text(
                             'To shape the future of mobile experiences by combining innovation with expertise. We empower businesses to engage their audience, scale effortlessly, and thrive in a competitive landscape.',
-                            style: TextStyle(fontSize: 18, color: Colors.white),
+                            style: TextStyle(
+                                fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                         ),
+                        const SizedBox(height: 10),
                         // Fifth text with fade-in animation
                         AnimatedOpacity(
                           opacity: _isVisible[4] ? 1.0 : 0.0,
                           duration: const Duration(seconds: 1),
-                          child: Text(
+                          child: const Text(
                             'Custom Code',
-                            style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.red),
+                            style: TextStyle(
+                                fontSize: 22,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.teal,
+                                fontFamily: 'Noori'),
                           ),
                         ),
                         // Sixth text with fade-in animation
                         AnimatedOpacity(
                           opacity: _isVisible[4] ? 1.0 : 0.0,
                           duration: const Duration(seconds: 1),
-                          child: Text(
+                          child: const Text(
                             'Delivering mobile solutions that connect people and ideas. Vital Steer brings passion, creativity, and technical excellence to every project.',
-                            style: TextStyle(fontSize: 18, color: Colors.white),
+                            style: TextStyle(
+                                fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                         ),
                       ],

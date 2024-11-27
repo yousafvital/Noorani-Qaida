@@ -6,7 +6,11 @@ class AppDataProvider {
       {
         "no": 1,
         "Title": "مفردات",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "agdrd",
+          }
+        ],
         "screenImage": "assets/images/canva_1.jpg",
         "gridItems": [
           {
@@ -135,7 +139,11 @@ class AppDataProvider {
       {
         "no": 2,
         "Title": "مرکبات",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_2.jpg",
         "gridItems": [
           {
@@ -648,7 +656,11 @@ class AppDataProvider {
       {
         "no": 3,
         "Title": "حروف مقطعات",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_3.jpg",
         "gridItems": [
           {
@@ -713,7 +725,11 @@ class AppDataProvider {
       {
         "no": 4,
         "Title": "حرکات",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_4.jpg",
         "gridItems": [
           {
@@ -1058,7 +1074,11 @@ class AppDataProvider {
       {
         "no": 5,
         "Title": "تنوین",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_5.jpg",
         "gridItems": [
       {
@@ -1404,7 +1424,11 @@ class AppDataProvider {
       {
         "no": 6,
         "Title": "مشق حرکات و تنوین",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_6.jpg",
         "gridItems": [
           {
@@ -1629,7 +1653,11 @@ class AppDataProvider {
       {
         "no": 7,
         "Title": "حرکات و کھڑی حرکات",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_7.jpg",
         "gridItems": [
           {
@@ -1706,7 +1734,11 @@ class AppDataProvider {
       {
         "no": 8,
         "Title": "مدہ و لین",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_8.jpg",
         "gridItems": [
           {
@@ -2275,7 +2307,11 @@ class AppDataProvider {
       {
         "no": 9,
         "Title": "مشق حرکات",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_9.jpg",
         "gridItems": [
           {
@@ -2688,7 +2724,11 @@ class AppDataProvider {
       {
         "no": 10,
         "Title": "سکون یعنی جزم",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_10.jpg",
         "gridItems": [
           {
@@ -2889,7 +2929,11 @@ class AppDataProvider {
       {
         "no": 11,
         "Title": "مشق سکون",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_11.jpg",
         "gridItems": [
           {
@@ -3490,7 +3534,11 @@ class AppDataProvider {
       {
         "no": 12,
         "Title": "تشدید",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_12.jpg",
         "gridItems": [
           {
@@ -3775,7 +3823,11 @@ class AppDataProvider {
       {
         "no": 13,
         "Title": "مشق تشدید",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_13.jpg",
         "gridItems": [
           {
@@ -4008,7 +4060,11 @@ class AppDataProvider {
       {
         "no": 14,
         "Title": "مشق تشدید مشق مع سکون",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_14.jpg",
         "gridItems": [
           {
@@ -4109,7 +4165,11 @@ class AppDataProvider {
       {
         "no": 15,
         "Title": "تشدید مع تشدید",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_15.jpg",
         "gridItems": [
           {
@@ -4158,7 +4218,11 @@ class AppDataProvider {
       {
         "no": 16,
         "Title": "تشدید بعد حروف مدہ",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_16.jpg",
         "gridItems": [
           {
@@ -4211,7 +4275,11 @@ class AppDataProvider {
       {
         "no": 17,
         "Title": "خاتمہ اجرائے قوائد",
-        "Hadayat": "ہدایات",
+        "Hadayat": [
+          {
+            "hadayatScreen": "afasd",
+          }
+        ],
         "screenImage": "assets/images/canva_17.jpg",
         "gridItems": [
           {

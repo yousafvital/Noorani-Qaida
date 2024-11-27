@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:manzil_offline/drawer/settings_screen.dart';
 import 'package:manzil_offline/home_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:manzil_offline/custom_widgets/audio_controller.dart';
@@ -19,11 +18,11 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     );
