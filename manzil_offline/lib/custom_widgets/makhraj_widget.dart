@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class MakhrajWidget extends StatelessWidget {
@@ -18,7 +17,7 @@ class MakhrajWidget extends StatelessWidget {
     return ListTile(
       title: Text(
         title,
-        style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+        style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
       ),
       subtitle: Text(
         subTitle,
