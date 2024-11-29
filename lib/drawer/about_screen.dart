@@ -54,7 +54,7 @@ class _AboutScreenState extends State<AboutScreen> {
           // Background image with opacity
           Positioned.fill(
             child: Opacity(
-              opacity: 0.3, // Adjust opacity as needed
+              opacity: 0.1, // Adjust opacity as needed
               child: Image.asset(
                 'assets/images/custom_quran.png', // Replace with your image path
                 fit: BoxFit.cover,

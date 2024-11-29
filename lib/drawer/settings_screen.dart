@@ -19,10 +19,10 @@ class SettingsScreen extends StatelessWidget {
           // Background image with opacity
           Positioned.fill(
             child: Opacity(
-              opacity: 0.7, // Adjust opacity as needed
+              opacity: 0.3, // Adjust opacity as needed
               child: Center(
                 child: Image.asset(
-                  'assets/images/quran_bg.jpg',
+                  'assets/images/noorani_text.png',
                   fit: BoxFit.cover,
                 ),
               ),
