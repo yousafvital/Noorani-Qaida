@@ -54,13 +54,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
       appBar: const AppbarWidget(title: 'نورانی قاعدہ'),
       endDrawer: const AppDrawer(),
       extendBodyBehindAppBar: true, // Makes the body extend behind the AppBar
-      body:
-
-          // Foreground PageView Content
-          Padding(
+      body: Padding(
         padding:
             const EdgeInsets.only(top: 76.0), // To avoid overlap with AppBar
         child: PageView.builder(
+          reverse: true,
           controller: _pageController,
           itemCount: filteredData.length,
           scrollDirection: Axis.horizontal,

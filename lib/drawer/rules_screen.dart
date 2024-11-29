@@ -64,7 +64,7 @@ class RulesScreen extends StatelessWidget {
                     ),
                     indicatorSize: TabBarIndicatorSize.tab,
                     tabs: [
-                      Tab(text: 'Makhraj'),
+                      Tab(text: 'Makharij'),
                       Tab(text: 'Map'),
                       Tab(text: 'Pronunciation'),
                     ],
@@ -89,7 +89,133 @@ class RulesScreen extends StatelessWidget {
                           ),
                           const Divider(),
                           MakhrajWidget(
-                            title: '2. The Makhraj of ALIF',
+                            title: '2. The Makhraj of HAMZAH & HAA',
+                            subTitle:
+                                'Hamzah and Haa comes out from the part of the throat which is nearest to the chest.',
+                            trailing: IconButton(
+                              icon: const Icon(
+                                Icons.multitrack_audio_outlined,
+                              ),
+                              onPressed: () {
+                                playAudio('assets/audio/voice_l1/l1.mp3');
+                              },
+                            ),
+                          ),
+                          const Divider(),
+                          MakhrajWidget(
+                            title: '3. The Makhraj oF AIIN & HAA',
+                            subTitle:
+                                'Aiin and Haa comes out from the center of the throat.',
+                            trailing: IconButton(
+                              icon: const Icon(
+                                Icons.multitrack_audio_outlined,
+                              ),
+                              onPressed: () {
+                                playAudio('assets/audio/voice_l1/l1.mp3');
+                              },
+                            ),
+                          ),
+                          const Divider(),
+                          MakhrajWidget(
+                            title: '4. The Makhraj of GHAIN & KHAA',
+                            subTitle:
+                                'Ghain and Khaa comes out from the part of the throat which is nearest to the mouth.',
+                            trailing: IconButton(
+                              icon: const Icon(
+                                Icons.multitrack_audio_outlined,
+                              ),
+                              onPressed: () {
+                                playAudio('assets/audio/voice_l1/l1.mp3');
+                              },
+                            ),
+                          ),
+                          const Divider(),
+                          MakhrajWidget(
+                            title: '5. The Makhraj of QAAF',
+                            subTitle:
+                                'Qaaf comes out when the raised back portion of the tongue touches the top of the mouth.',
+                            trailing: IconButton(
+                              icon: const Icon(
+                                Icons.multitrack_audio_outlined,
+                              ),
+                              onPressed: () {
+                                playAudio('assets/audio/voice_l1/l1.mp3');
+                              },
+                            ),
+                          ),
+                          const Divider(),
+                          MakhrajWidget(
+                            title: '6. The Makhraj of KAAF',
+                            subTitle:
+                                'Kaaf comes out when the lower back portion of the tongue touches the top of the mouth.',
+                            trailing: IconButton(
+                              icon: const Icon(
+                                Icons.multitrack_audio_outlined,
+                              ),
+                              onPressed: () {
+                                playAudio('assets/audio/voice_l1/l1.mp3');
+                              },
+                            ),
+                          ),
+                          const Divider(),
+                          MakhrajWidget(
+                            title: '7. The Makhraj of JEEM, SHEEN & YAA',
+                            subTitle:
+                                'Jeem, Shee & Yaa comes out when the center of the tongue touches the top of the mouth.',
+                            trailing: IconButton(
+                              icon: const Icon(
+                                Icons.multitrack_audio_outlined,
+                              ),
+                              onPressed: () {
+                                playAudio('assets/audio/voice_l1/l1.mp3');
+                              },
+                            ),
+                          ),
+                          const Divider(),
+                          MakhrajWidget(
+                            title: '8. The Makhraj of DUAD',
+                            subTitle:
+                                'Duad comes out when the when the size of the tongue touches the roots of the top teeth.',
+                            trailing: IconButton(
+                              icon: const Icon(
+                                Icons.multitrack_audio_outlined,
+                              ),
+                              onPressed: () {
+                                playAudio('assets/audio/voice_l1/l1.mp3');
+                              },
+                            ),
+                          ),
+                          const Divider(),
+                          MakhrajWidget(
+                            title: '9. The Makhraj of LAAM',
+                            subTitle:
+                                'Laam comes out when the front of the tongue touches the gums of all top front teeth.',
+                            trailing: IconButton(
+                              icon: const Icon(
+                                Icons.multitrack_audio_outlined,
+                              ),
+                              onPressed: () {
+                                playAudio('assets/audio/voice_l1/l1.mp3');
+                              },
+                            ),
+                          ),
+                          const Divider(),
+                          MakhrajWidget(
+                            title: '10. The Makhraj of NOON',
+                            subTitle:
+                                'Noon comes out when the edge of the tongue touches the gums of the top four front teeth.',
+                            trailing: IconButton(
+                              icon: const Icon(
+                                Icons.multitrack_audio_outlined,
+                              ),
+                              onPressed: () {
+                                playAudio('assets/audio/voice_l1/l1.mp3');
+                              },
+                            ),
+                          ),
+                          const Divider(),
+                          MakhrajWidget(
+                            title: '11. The Makhraj of RAA',
                             subTitle:
                                 'Alif comes out the empty space of the mouth.',
                             trailing: IconButton(
@@ -103,7 +229,7 @@ class RulesScreen extends StatelessWidget {
                           ),
                           const Divider(),
                           MakhrajWidget(
-                            title: '3. The Makhraj of ALIF',
+                            title: '12. The Makhraj of DAAL, TUA & SUAD',
                             subTitle:
                                 'Alif comes out the empty space of the mouth.',
                             trailing: IconButton(
@@ -117,7 +243,7 @@ class RulesScreen extends StatelessWidget {
                           ),
                           const Divider(),
                           MakhrajWidget(
-                            title: '4. The Makhraj of ALIF',
+                            title: '13. The Makhraj of ZAAL, ZUA & SAA',
                             subTitle:
                                 'Alif comes out the empty space of the mouth.',
                             trailing: IconButton(
@@ -131,7 +257,7 @@ class RulesScreen extends StatelessWidget {
                           ),
                           const Divider(),
                           MakhrajWidget(
-                            title: '5. The Makhraj of ALIF',
+                            title: '14. The Makhraj of ZAA, SEEN & SUAD',
                             subTitle:
                                 'Alif comes out the empty space of the mouth.',
                             trailing: IconButton(
@@ -145,7 +271,7 @@ class RulesScreen extends StatelessWidget {
                           ),
                           const Divider(),
                           MakhrajWidget(
-                            title: '6. The Makhraj of ALIF',
+                            title: '15. The Makhraj of FAA',
                             subTitle:
                                 'Alif comes out the empty space of the mouth.',
                             trailing: IconButton(
@@ -159,7 +285,7 @@ class RulesScreen extends StatelessWidget {
                           ),
                           const Divider(),
                           MakhrajWidget(
-                            title: '7. The Makhraj of ALIF',
+                            title: '16. The Makhraj of WAAO, BAA & MEEM',
                             subTitle:
                                 'Alif comes out the empty space of the mouth.',
                             trailing: IconButton(
@@ -173,133 +299,7 @@ class RulesScreen extends StatelessWidget {
                           ),
                           const Divider(),
                           MakhrajWidget(
-                            title: '8. The Makhraj of ALIF',
-                            subTitle:
-                                'Alif comes out the empty space of the mouth.',
-                            trailing: IconButton(
-                              icon: const Icon(
-                                Icons.multitrack_audio_outlined,
-                              ),
-                              onPressed: () {
-                                playAudio('assets/audio/voice_l1/l1.mp3');
-                              },
-                            ),
-                          ),
-                          const Divider(),
-                          MakhrajWidget(
-                            title: '9. The Makhraj of ALIF',
-                            subTitle:
-                                'Alif comes out the empty space of the mouth.',
-                            trailing: IconButton(
-                              icon: const Icon(
-                                Icons.multitrack_audio_outlined,
-                              ),
-                              onPressed: () {
-                                playAudio('assets/audio/voice_l1/l1.mp3');
-                              },
-                            ),
-                          ),
-                          const Divider(),
-                          MakhrajWidget(
-                            title: '10. The Makhraj of ALIF',
-                            subTitle:
-                                'Alif comes out the empty space of the mouth.',
-                            trailing: IconButton(
-                              icon: const Icon(
-                                Icons.multitrack_audio_outlined,
-                              ),
-                              onPressed: () {
-                                playAudio('assets/audio/voice_l1/l1.mp3');
-                              },
-                            ),
-                          ),
-                          const Divider(),
-                          MakhrajWidget(
-                            title: '11. The Makhraj of ALIF',
-                            subTitle:
-                                'Alif comes out the empty space of the mouth.',
-                            trailing: IconButton(
-                              icon: const Icon(
-                                Icons.multitrack_audio_outlined,
-                              ),
-                              onPressed: () {
-                                playAudio('assets/audio/voice_l1/l1.mp3');
-                              },
-                            ),
-                          ),
-                          const Divider(),
-                          MakhrajWidget(
-                            title: '12. The Makhraj of ALIF',
-                            subTitle:
-                                'Alif comes out the empty space of the mouth.',
-                            trailing: IconButton(
-                              icon: const Icon(
-                                Icons.multitrack_audio_outlined,
-                              ),
-                              onPressed: () {
-                                playAudio('assets/audio/voice_l1/l1.mp3');
-                              },
-                            ),
-                          ),
-                          const Divider(),
-                          MakhrajWidget(
-                            title: '13. The Makhraj of ALIF',
-                            subTitle:
-                                'Alif comes out the empty space of the mouth.',
-                            trailing: IconButton(
-                              icon: const Icon(
-                                Icons.multitrack_audio_outlined,
-                              ),
-                              onPressed: () {
-                                playAudio('assets/audio/voice_l1/l1.mp3');
-                              },
-                            ),
-                          ),
-                          const Divider(),
-                          MakhrajWidget(
-                            title: '14. The Makhraj of ALIF',
-                            subTitle:
-                                'Alif comes out the empty space of the mouth.',
-                            trailing: IconButton(
-                              icon: const Icon(
-                                Icons.multitrack_audio_outlined,
-                              ),
-                              onPressed: () {
-                                playAudio('assets/audio/voice_l1/l1.mp3');
-                              },
-                            ),
-                          ),
-                          const Divider(),
-                          MakhrajWidget(
-                            title: '15. The Makhraj of ALIF',
-                            subTitle:
-                                'Alif comes out the empty space of the mouth.',
-                            trailing: IconButton(
-                              icon: const Icon(
-                                Icons.multitrack_audio_outlined,
-                              ),
-                              onPressed: () {
-                                playAudio('assets/audio/voice_l1/l1.mp3');
-                              },
-                            ),
-                          ),
-                          const Divider(),
-                          MakhrajWidget(
-                            title: '16. The Makhraj of ALIF',
-                            subTitle:
-                                'Alif comes out the empty space of the mouth.',
-                            trailing: IconButton(
-                              icon: const Icon(
-                                Icons.multitrack_audio_outlined,
-                              ),
-                              onPressed: () {
-                                playAudio('assets/audio/voice_l1/l1.mp3');
-                              },
-                            ),
-                          ),
-                          const Divider(),
-                          MakhrajWidget(
-                            title: '17. The Makhraj of ALIF',
+                            title: '17. The Makhraj of GHUNNAH',
                             subTitle:
                                 'Alif comes out the empty space of the mouth.',
                             trailing: IconButton(

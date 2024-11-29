@@ -11,7 +11,7 @@ class SettingsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Access the AudioController from the provider
-    final audioController = Provider.of<AudioController>(context);
+    // final audioController = Provider.of<AudioController>(context);
 
     return Scaffold(
       appBar: const AppbarWidget(title: 'نورانی قاعدہ'),
@@ -24,7 +24,7 @@ class SettingsScreen extends StatelessWidget {
               opacity: 0.7, // Adjust opacity as needed
               child: Center(
                 child: Image.asset(
-                  'assets/images/quran_bg.jpg', // Replace with your image path
+                  'assets/images/quran_bg.jpg',
                   fit: BoxFit.cover,
                 ),
               ),
@@ -43,20 +43,20 @@ class SettingsScreen extends StatelessWidget {
                       size: 30,
                       color: Colors.green,
                     ),
-                    const Text('Tawuz Sound',
+                    const Text('Recitation',
                         style: TextStyle(
                           fontSize: 22,
                           fontFamily: 'Noori',
                         )),
                     const Spacer(),
-                    Switch(
-                      value: audioController.isAudioEnabled,
-                      activeColor: Colors.deepOrangeAccent,
-                      onChanged: (bool value) {
-                        // Toggle the global audio state
-                        audioController.setAudioEnabled(value);
-                      },
-                    ),
+                    // Switch(
+                    //   value: audioController.isAudioEnabled,
+                    //   activeColor: Colors.deepOrangeAccent,
+                    //   onChanged: (bool value) {
+                    //     // Toggle the global audio state
+                    //     audioController.setAudioEnabled(value);
+                    //   },
+                    // ),
                   ],
                 ),
               ),

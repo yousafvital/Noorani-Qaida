@@ -14,13 +14,13 @@ class CustomScreen extends StatefulWidget {
       onLastItemVisible; // Callback to trigger when the last item is visible
 
   const CustomScreen({
-    Key? key,
+    super.key,
     required this.title,
     required this.hadayat,
     required this.gridItems,
     required this.screenPath,
     this.onLastItemVisible, // Initialize the callback
-  }) : super(key: key);
+  });
 
   @override
   _CustomScreenState createState() => _CustomScreenState();
@@ -39,6 +39,7 @@ class _CustomScreenState extends State<CustomScreen> {
 
     // Stop "Play All" if it's running
     if (isPlayingAll) {
+      print('---> Is isPlayingAll 1 $isPlayingAll');
       stopAudio();
     }
 
@@ -48,12 +49,12 @@ class _CustomScreenState extends State<CustomScreen> {
         setState(() {
           currentPlayingIndex = index;
         });
-        print("---> Play once $currentPlayingIndex and $index");
+        print("---> Play once before wait $currentPlayingIndex and $index");
 
         await _audioPlayer.setAsset(audioPath);
         await _audioPlayer.play();
 
-        print("---> Play once $currentPlayingIndex and $index");
+        print("---> Play once after wait $currentPlayingIndex and $index");
 
         // Listen for playback completion
         _audioPlayer.playerStateStream.listen((state) {
@@ -77,9 +78,12 @@ class _CustomScreenState extends State<CustomScreen> {
 
     isPlayingAll = true; // Ensure the flag is set when this function starts.
 
+    print('---> Is isPlayingAll 2 $isPlayingAll');
+
     for (int i = startIndex; i < widget.gridItems.length; i++) {
       // Exit the loop if isPlayingAll is false
       if (!isPlayingAll) {
+        print('---> Is isPlayingAll 3 $isPlayingAll');
         break;
       }
 
@@ -106,9 +110,12 @@ class _CustomScreenState extends State<CustomScreen> {
 
     // Reset the state after exiting the loop
     setState(() {
+      print('---> Is isPlayingAll 4 $isPlayingAll');
+      if (!isPlayingAll) return;
       isPlayingAll = false;
+      print('---> Is isPlayingAll 5 $isPlayingAll');
       currentPlayingIndex = -1;
-      print('Play all on state  currentPlayingIndex = -1 $currentPlayingIndex');
+      print('Play all on state  currentPlayingIndex: $currentPlayingIndex');
 
       // Trigger the callback if it's the last item
       if (widget.onLastItemVisible != null &&
@@ -123,9 +130,9 @@ class _CustomScreenState extends State<CustomScreen> {
     _audioPlayer.stop();
     setState(() {
       //currentPlayingIndex = -1;
-      print(
-          'stopAudio setState  currentPlayingIndex = -1 $currentPlayingIndex');
+      print('c: $currentPlayingIndex');
       isPlayingAll = false;
+      print('---> Is isPlayingAll 6 $isPlayingAll');
     });
   }
 
@@ -171,40 +178,44 @@ class _CustomScreenState extends State<CustomScreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       IconButton(
-                        icon: Icon(
-                          color: Colors.white,
-                          isPlayingAll ? Icons.pause : Icons.play_arrow,
-                          size: 30,
-                        ),
-                        onPressed: () {
-                          setState(() {
-                            if (isPlayingAll) {
-                              stopAudio();
-                            } else {
-                              isPlayingAll = true;
-                              playAllAudio(currentPlayingIndex == -1
-                                  ? 0
-                                  : currentPlayingIndex);
-                            }
-                          });
-                        },
-                      ),
+                          icon: Icon(
+                            color: Colors.white,
+                            isPlayingAll ? Icons.pause : Icons.play_arrow,
+                            size: 30,
+                          ),
+                          onPressed: () {
+                            setState(() {
+                              if (isPlayingAll) {
+                                stopAudio();
+                              } else {
+                                isPlayingAll = true;
+                                print('---> Is isPlayingAll 7 $isPlayingAll');
+                                playAllAudio(currentPlayingIndex == -1
+                                    ? 0
+                                    : currentPlayingIndex);
+                              }
+                            });
+                          }),
                       InkWell(
                         onTap: () {
                           showModalBottomSheet(
                             context: context,
                             backgroundColor: Colors.white.withOpacity(0.9),
-                            shape: RoundedRectangleBorder(
+                            shape: const RoundedRectangleBorder(
                               borderRadius: BorderRadius.vertical(
                                 top: Radius.circular(20),
                               ),
                             ),
+                            isScrollControlled:
+                                true, // Allows dynamic size adjustment
                             builder: (BuildContext context) {
                               return Padding(
                                 padding: const EdgeInsets.all(16.0),
                                 child: Column(
-                                  mainAxisSize: MainAxisSize.min,
-                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisSize: MainAxisSize
+                                      .min, // Adjust size to fit content
+                                  crossAxisAlignment: CrossAxisAlignment
+                                      .end, // Align text to the end
                                   children: [
                                     const Text(
                                       'ہدایات برائے تختی',
@@ -215,17 +226,26 @@ class _CustomScreenState extends State<CustomScreen> {
                                         color: Colors.black,
                                       ),
                                     ),
+                                    const Divider(),
                                     const SizedBox(height: 10),
-                                    Text(
-                                      widget.hadayat.isNotEmpty
-                                          ? widget.hadayat[0]
-                                                  ["hadayatScreen"] ??
-                                              'No Data'
-                                          : 'No Hidayat Available',
-                                      style: TextStyle(
-                                        fontSize: 18,
-                                        color: Colors.grey[800],
-                                      ),
+                                    Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          textAlign: TextAlign.end,
+                                          widget.hadayat.isNotEmpty
+                                              ? widget.hadayat[0]
+                                                      ["hadayatScreen"] ??
+                                                  'No Data'
+                                              : 'No Hidayat Available',
+                                          style: TextStyle(
+                                            fontSize: 18,
+                                            color: Colors.grey[800],
+                                            fontFamily: 'Noori',
+                                          ),
+                                        ),
+                                      ],
                                     ),
                                   ],
                                 ),
@@ -233,12 +253,12 @@ class _CustomScreenState extends State<CustomScreen> {
                             },
                           );
                         },
-                        child: Row(
+                        child: const Row(
                           children: [
                             Text(
                               'ہدایات',
                               textAlign: TextAlign.center,
-                              style: const TextStyle(
+                              style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
                                 fontSize: 25,
@@ -269,8 +289,10 @@ class _CustomScreenState extends State<CustomScreen> {
                         itemBuilder: (context, index) {
                           final isAudioPlaying = index == currentPlayingIndex;
                           final itemColor = isAudioPlaying
-                              ? Colors.green.shade100
+                              ? Colors.amber.shade300
                               : const Color.fromARGB(255, 255, 255, 255);
+
+                          print('itemColor: $itemColor');
 
                           return AnimationConfiguration.staggeredGrid(
                             position: index,

@@ -1,5 +1,3 @@
-
-
 class AppDataProvider {
   static List<Map<String, dynamic>> getAppData() {
     return [
@@ -8,7 +6,8 @@ class AppDataProvider {
         "Title": "مفردات",
         "Hadayat": [
           {
-            "hadayatScreen": "agdrd",
+            "hadayatScreen":
+                "حروفِ مفردات یعنی حروف تہجی ۲۹ ہیں۔ حروفِ مفردات کو تجوید وقراءت کے مطابق عربی لہجہ میں ادا کریں اور اردو تلفظ سے پر ہیز کریں۔ یعنی؛ بے، تے، نے، ح، خ، طوئے، ظوئے وغیرہ ہر گز نہ پڑھیں بلکہ با، تا، ثا، حا، خا، طا، ظا پڑھیں۔ ان ۲۹ حروف میں سات ۷ حروف ایسے ہیں جو ہر حالت میں پر یعنی موٹے پڑھے جاتے ہیں۔ انہیں حروفِ مستعلیہ کہتے ہیں اور وہ یہ ہیں؛ خ، ص، ض، ط، ظ، غ، ق ان کا مجموعہ حص ضغط قط ہے۔ ہونٹوں سے صرف چار حروف ادا ہوتے ہیں۔ ب، ف، م، و۔ ان کے علاوہ باقی حروف پر ہونٹ نہ ملنے دیں۔ ان تین حروف ز، س، ص کو ادا کرتے وقت سیٹی کی طرح تیز آواز نکلتی ہے اس لئے ان حروف کو حروفِ صغیریہ یعنی سیٹی والے حروف کہتے ہیں۔",
           }
         ],
         "screenImage": "assets/images/canva_1.jpg",
@@ -135,7 +134,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 2,
         "Title": "مرکبات",
@@ -652,7 +650,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 3,
         "Title": "حروف مقطعات",
@@ -721,7 +718,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 4,
         "Title": "حرکات",
@@ -1070,7 +1066,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 5,
         "Title": "تنوین",
@@ -1081,346 +1076,344 @@ class AppDataProvider {
         ],
         "screenImage": "assets/images/canva_5.jpg",
         "gridItems": [
-      {
-      "audioPath": "assets/audio/voice_l5/l5_1.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_1.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_2.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_2.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_3.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_3.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_4.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_4.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_5.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_5.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_6.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_6.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_7.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_7.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_8.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_8.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_9.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_9.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_10.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_10.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_11.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_11.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_12.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_12.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_13.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_13.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_14.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_14.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_15.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_15.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_16.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_16.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_17.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_17.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_18.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_18.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_19.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_19.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_20.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_20.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_21.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_21.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_22.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_22.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_23.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_23.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_24.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_24.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_25.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_25.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_26.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_26.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_27.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_27.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_28.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_28.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_29.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_29.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_30.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_30.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_31.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_31.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_32.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_32.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_33.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_33.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_34.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_34.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_35.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_35.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_36.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_36.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_37.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_37.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_38.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_38.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_39.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_39.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_40.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_40.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_41.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_41.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_42.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_42.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_43.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_43.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_44.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_44.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_45.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_45.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_46.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_46.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_47.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_47.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_48.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_48.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_49.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_49.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_50.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_50.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_51.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_51.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_52.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_52.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_53.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_53.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_54.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_54.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_55.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_55.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_56.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_56.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_57.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_57.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_58.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_58.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_59.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_59.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_60.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_60.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_61.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_61.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_62.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_62.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_63.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_63.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_64.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_64.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_65.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_65.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_66.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_66.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_67.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_67.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_68.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_68.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_69.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_69.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_70.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_70.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_71.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_71.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_72.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_72.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_73.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_73.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_74.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_74.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_75.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_75.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_76.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_76.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_77.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_77.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_78.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_78.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_79.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_79.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_80.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_80.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_81.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_81.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_82.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_82.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_83.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_83.svg",
-      },
-      {
-      "audioPath": "assets/audio/voice_l5/l5_84.mp3",
-      "imagePath": "assets/svg_alphabet/svg_lesson5/l5_84.svg",
-      },
-
+          {
+            "audioPath": "assets/audio/voice_l5/l5_1.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_1.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_2.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_2.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_3.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_3.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_4.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_4.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_5.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_5.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_6.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_6.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_7.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_7.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_8.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_8.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_9.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_9.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_10.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_10.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_11.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_11.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_12.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_12.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_13.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_13.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_14.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_14.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_15.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_15.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_16.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_16.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_17.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_17.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_18.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_18.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_19.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_19.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_20.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_20.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_21.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_21.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_22.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_22.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_23.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_23.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_24.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_24.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_25.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_25.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_26.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_26.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_27.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_27.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_28.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_28.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_29.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_29.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_30.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_30.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_31.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_31.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_32.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_32.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_33.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_33.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_34.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_34.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_35.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_35.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_36.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_36.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_37.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_37.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_38.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_38.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_39.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_39.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_40.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_40.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_41.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_41.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_42.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_42.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_43.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_43.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_44.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_44.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_45.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_45.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_46.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_46.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_47.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_47.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_48.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_48.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_49.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_49.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_50.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_50.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_51.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_51.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_52.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_52.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_53.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_53.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_54.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_54.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_55.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_55.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_56.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_56.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_57.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_57.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_58.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_58.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_59.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_59.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_60.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_60.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_61.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_61.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_62.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_62.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_63.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_63.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_64.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_64.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_65.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_65.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_66.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_66.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_67.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_67.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_68.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_68.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_69.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_69.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_70.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_70.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_71.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_71.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_72.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_72.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_73.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_73.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_74.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_74.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_75.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_75.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_76.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_76.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_77.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_77.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_78.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_78.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_79.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_79.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_80.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_80.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_81.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_81.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_82.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_82.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_83.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_83.svg",
+          },
+          {
+            "audioPath": "assets/audio/voice_l5/l5_84.mp3",
+            "imagePath": "assets/svg_alphabet/svg_lesson5/l5_84.svg",
+          },
         ],
       },
-
       {
         "no": 6,
         "Title": "مشق حرکات و تنوین",
@@ -1649,7 +1642,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 7,
         "Title": "حرکات و کھڑی حرکات",
@@ -1730,7 +1722,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 8,
         "Title": "مدہ و لین",
@@ -2303,7 +2294,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 9,
         "Title": "مشق حرکات",
@@ -2720,7 +2710,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 10,
         "Title": "سکون یعنی جزم",
@@ -2925,7 +2914,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 11,
         "Title": "مشق سکون",
@@ -3530,7 +3518,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 12,
         "Title": "تشدید",
@@ -3819,7 +3806,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 13,
         "Title": "مشق تشدید",
@@ -4056,7 +4042,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 14,
         "Title": "مشق تشدید مشق مع سکون",
@@ -4161,7 +4146,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 15,
         "Title": "تشدید مع تشدید",
@@ -4214,7 +4198,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 16,
         "Title": "تشدید بعد حروف مدہ",
@@ -4271,7 +4254,6 @@ class AppDataProvider {
           },
         ],
       },
-
       {
         "no": 17,
         "Title": "خاتمہ اجرائے قوائد",

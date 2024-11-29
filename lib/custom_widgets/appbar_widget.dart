@@ -32,9 +32,9 @@ class AppbarWidget extends StatelessWidget implements PreferredSizeWidget {
         title: Center(
           child: Text(
             title,
-            style: const TextStyle(
+            style: TextStyle(
               color: Colors.white,
-              fontSize: 35,
+              fontSize: 35.0,
               fontWeight: FontWeight.bold,
               fontFamily: 'Noori',
             ),
