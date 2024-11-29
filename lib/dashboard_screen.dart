@@ -7,8 +7,7 @@ import 'package:manzil_offline/custom_widgets/appbar_widget.dart';
 class DashboardScreen extends StatefulWidget {
   final int screenNumber;
 
-  const DashboardScreen({Key? key, required this.screenNumber})
-      : super(key: key);
+  const DashboardScreen({super.key, required this.screenNumber});
 
   @override
   _DashboardScreenState createState() => _DashboardScreenState();

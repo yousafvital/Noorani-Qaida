@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class YoutubePlayerWidget extends StatefulWidget {
+  const YoutubePlayerWidget({super.key});
+
   @override
   _YoutubePlayerWidgetState createState() => _YoutubePlayerWidgetState();
 }
@@ -14,7 +16,7 @@ class _YoutubePlayerWidgetState extends State<YoutubePlayerWidget> {
     super.initState();
     _controller = YoutubePlayerController(
       initialVideoId: YoutubePlayer.convertUrlToId('https://www.youtube.com/watch?v=8_60iWXl7dw')!, // Replace with actual URL
-      flags: YoutubePlayerFlags(
+      flags: const YoutubePlayerFlags(
         autoPlay: false,
         mute: false,
       ),

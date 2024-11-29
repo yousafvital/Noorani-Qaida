@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:manzil_offline/custom_widgets/app_drawer.dart';
 import 'package:manzil_offline/custom_widgets/appbar_widget.dart';
 import 'package:manzil_offline/custom_widgets/takhti_image.dart';
-import 'package:provider/provider.dart';
-import 'package:manzil_offline/custom_widgets/audio_controller.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -31,24 +29,24 @@ class SettingsScreen extends StatelessWidget {
             ),
           ),
           // Content of the Settings Screen
-          Column(
+          const Column(
             children: [
-              const TakhtiImage(text: 'Setting'),
+              TakhtiImage(text: 'Setting'),
               Padding(
-                padding: const EdgeInsets.all(10),
+                padding: EdgeInsets.all(10),
                 child: Row(
                   children: [
-                    const Icon(
+                    Icon(
                       Icons.audiotrack_outlined,
                       size: 30,
                       color: Colors.green,
                     ),
-                    const Text('Recitation',
+                    Text('Recitation',
                         style: TextStyle(
                           fontSize: 22,
                           fontFamily: 'Noori',
                         )),
-                    const Spacer(),
+                    Spacer(),
                     // Switch(
                     //   value: audioController.isAudioEnabled,
                     //   activeColor: Colors.deepOrangeAccent,

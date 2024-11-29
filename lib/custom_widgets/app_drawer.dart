@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:manzil_offline/drawer/about_screen.dart';
 import 'package:manzil_offline/drawer/rules_screen.dart';
 import 'package:manzil_offline/drawer/settings_screen.dart';
