@@ -35,8 +35,8 @@ class _HomeScreenState extends State<HomeScreen> {
           // Background image
           Center(
             child: Image.asset(
-              'assets/images/custom_quran.png', // Replace with your image path
-              fit: BoxFit.fill,
+              'assets/images/noorani_icon.jpeg', // Replace with your image path
+              fit: BoxFit.cover,
             ),
           ),
           // Main content

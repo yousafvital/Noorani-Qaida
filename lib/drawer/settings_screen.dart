@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:manzil_offline/custom_widgets/app_drawer.dart';
 import 'package:manzil_offline/custom_widgets/appbar_widget.dart';
 import 'package:manzil_offline/custom_widgets/takhti_image.dart';
-import 'package:provider/provider.dart';
-import 'package:manzil_offline/custom_widgets/audio_controller.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -21,10 +19,10 @@ class SettingsScreen extends StatelessWidget {
           // Background image with opacity
           Positioned.fill(
             child: Opacity(
-              opacity: 0.7, // Adjust opacity as needed
+              opacity: 0.3, // Adjust opacity as needed
               child: Center(
                 child: Image.asset(
-                  'assets/images/quran_bg.jpg',
+                  'assets/images/noorani_text.png',
                   fit: BoxFit.cover,
                 ),
               ),

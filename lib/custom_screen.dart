@@ -200,7 +200,7 @@ class _CustomScreenState extends State<CustomScreen> {
                         onTap: () {
                           showModalBottomSheet(
                             context: context,
-                            backgroundColor: Colors.white.withOpacity(0.9),
+                            // backgroundColor: Colors.white.withOpacity(0.9),
                             shape: const RoundedRectangleBorder(
                               borderRadius: BorderRadius.vertical(
                                 top: Radius.circular(20),
@@ -217,13 +217,15 @@ class _CustomScreenState extends State<CustomScreen> {
                                   crossAxisAlignment: CrossAxisAlignment
                                       .end, // Align text to the end
                                   children: [
-                                    const Text(
-                                      'ہدایات برائے تختی',
-                                      style: TextStyle(
-                                        fontSize: 22,
-                                        fontFamily: 'Noori',
-                                        fontWeight: FontWeight.bold,
-                                        color: Colors.black,
+                                    const Center(
+                                      child: Text(
+                                        'ہدایات برائے تختی',
+                                        style: TextStyle(
+                                          fontSize: 22,
+                                          fontFamily: 'Noori',
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.black,
+                                        ),
                                       ),
                                     ),
                                     const Divider(),
